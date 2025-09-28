@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+    background-color: black;   /* רקע שחור לטבלה */
+
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;  
+  line-height: 40px; 
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  height: 100vh;                  /* תופס את כל גובה הדפדפן */
+  display: flex;                  /* מפעיל Flexbox */
+  justify-content: center;        /* מרכז אופקית */
+  align-items: center;            /* מרכז אנכית */
+}
